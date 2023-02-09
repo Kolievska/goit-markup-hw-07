@@ -149,7 +149,7 @@
 }
 
 .policy {
-  @include centeredFlex ($justify: center);
+  @include centeredFlex ();
   
   position: relative;
   margin-bottom: 30px;

@@ -9,7 +9,7 @@
   }
   
   .features__wrapper {
-    @include centeredFlex ($justify: center);
+    @include centeredFlex ();
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
@@ -45,7 +45,7 @@
   }
   
   .images__overlay {
-    @include centeredFlex ($justify: center);
+    @include centeredFlex ();
 
     position: absolute;
     left: 0;
@@ -114,7 +114,7 @@
   }
   
   .member__link {
-    @include centeredFlex ($justify: center);
+    @include centeredFlex ();
 
     width: 44px;
     height: 44px;
@@ -141,7 +141,7 @@
   }
   
   .brand__link {
-    @include centeredFlex ($justify: center);
+    @include centeredFlex ();
     
     width: 170px;
     height: 92px;
